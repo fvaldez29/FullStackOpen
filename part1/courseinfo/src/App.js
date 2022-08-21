@@ -15,7 +15,7 @@ const Part = (props) => {
 const Content = (props) => {
   return (
     <div>
-      <p></p>
+      <p></p>value="Give feedback"
       <Part content={props.content[0]} />
       <Part content={props.content[1]} />
       <Part content={props.content[2]} />

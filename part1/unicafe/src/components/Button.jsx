@@ -1,11 +1,14 @@
 import React from 'react'
+import { useState } from 'react'
+
 
 export const Button = ({text, onClick}) => {
-  return (
-    <div>
-        <button onClick={onClick}>
+
+    return (
+        <>
+          <button onClick={onClick} >
             {text}
-        </button>
-    </div>
-  )
+          </button>
+        </>
+    )
 }

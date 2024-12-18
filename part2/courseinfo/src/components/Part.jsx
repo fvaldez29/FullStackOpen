@@ -5,9 +5,6 @@ export const Part = ({ part }) => {
             <p>
                 {part.name} ({part.exercises} exercises)
             </p>
-            <p>
-                
-            </p>
         </>
     );
 };

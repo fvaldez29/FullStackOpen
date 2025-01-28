@@ -3,6 +3,11 @@ POST http://localhost:3001/api/persons
 Content-Type: application/json
 
 {
-  "name": "Franklyn Valdez",
-  "number": "1234567890"
+    "name": "Ada Lovelace",
+    "number": "040-123456"
 }
+
+### FIND BY ID
+GET http://localhost:3001/api/persons/6776a16cfba166b1a73cdc71
+Content-Type: application/json
+

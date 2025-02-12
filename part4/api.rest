@@ -1,0 +1,2 @@
+## GET HOME PAGE
+GET http://localhost:3001/

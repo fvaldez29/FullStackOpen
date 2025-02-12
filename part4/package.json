@@ -1,0 +1,28 @@
+{
+  "name": "part4",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/fvaldez29/FullStackOpen/tree/no-main-branch#readme",
+  "bugs": {
+    "url": "https://github.com/fvaldez29/FullStackOpen/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fvaldez29/FullStackOpen.git#no-main-branch"
+  },
+  "license": "ISC",
+  "author": "Franklyn Valdez Mateo",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.9.5",
+    "morgan": "^1.10.0"
+  }
+}
